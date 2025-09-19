@@ -1,0 +1,45 @@
+# Data files
+data/
+*.csv
+*.jsonl
+*.xml
+
+# Environment files
+oliveenv/
+testenv/
+__pycache__/
+*.pyc
+
+# Model files and caches
+.olive-cache/
+olive_cache/
+phi_cache/
+phi2_cache/
+optimized-model/
+phi-optimized-model/
+phi2-optimized-model/
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if any)
+node_modules/
+
+# Large model files (keep in LFS or exclude)
+*.safetensors
+*.bin
+*.onnx
+
+# Temporary folders
+New folder/
