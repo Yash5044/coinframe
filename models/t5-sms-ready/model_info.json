@@ -1,0 +1,10 @@
+{
+  "model_name": "T5-SMS-Classifier",
+  "base_model": "google/t5-efficient-tiny-nl32",
+  "quantized_size_mb": 96.08352565765381,
+  "parameters": 66986752,
+  "created_date": "2025-09-19T18:16:02.183967",
+  "approach": "Base T5 + Structured Prompting + Fallback Classification",
+  "mobile_ready": true,
+  "json_output_guaranteed": true
+}
